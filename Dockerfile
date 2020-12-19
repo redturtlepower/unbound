@@ -4,12 +4,12 @@ SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
 RUN apk add --no-cache \
 	build-base=0.5-r1 \
-	curl=7.66.0-r1 \
+	curl=7.66.0-r3 \
 	expat-dev=2.2.8-r0 \
 	libevent-dev=2.1.10-r0 \
 	libevent-static=2.1.10-r0 \
 	linux-headers=4.19.36-r0 \
-	openssl-dev=1.1.1g-r0 \
+	openssl-dev=1.1.1i-r0 \
 	perl=5.28.3-r0
 
 WORKDIR /tmp/unbound
